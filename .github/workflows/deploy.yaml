@@ -1,0 +1,38 @@
+name: Build and Deploy to Server
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.22'
+
+    - name: Build Go binary
+      working-directory: src/sec
+      run: |
+        go build -o sec .
+
+    - name: Upload binary to server
+      env:
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      run: |
+        echo "$SSH_PRIVATE_KEY" > key.pem
+        chmod 600 key.pem
+
+        scp -i key.pem -o StrictHostKeyChecking=no src/sec/sec $SSH_USERNAME@$SERVER_IP:/tmp/sec
+        ssh -i key.pem -o StrictHostKeyChecking=no $SSH_USERNAME@$SERVER_IP << 'EOF'
+          sudo mv /tmp/sec /usr/local/bin/sec
+          sudo chmod +x /usr/local/bin/sec
+EOF
