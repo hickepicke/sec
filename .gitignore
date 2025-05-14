@@ -1,3 +1,4 @@
 # Ignore the _old folder
 src/sec/_old/
-
+pkg/
+bin/

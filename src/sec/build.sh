@@ -26,9 +26,29 @@ go mod tidy
 # Clean previous build
 rm -f "$BINARY_NAME"
 
+echo "Select target OS for build:"
+echo "1) Ubuntu (linux/amd64)"
+echo "2) Windows 11 (windows/amd64)"
+read -p "Enter choice [1/2]: " os_choice
+
+case "$os_choice" in
+  1)
+    GOOS=linux
+    GOARCH=amd64
+    ;;
+  2)
+    GOOS=windows
+    GOARCH=amd64
+    ;;
+  *)
+    echo "Invalid choice. Exiting."
+    exit 1
+    ;;
+esac
+
 # Build the binary
-echo "🚧 Building binary..."
-GOOS=linux GOARCH=amd64 go build -o "$BINARY_NAME" sec.go
+echo "🚧 Building binary for $GOOS/$GOARCH..."
+go build -o "$BINARY_NAME" sec.go
 
 echo "✅ Build complete: ./$BINARY_NAME"
 
