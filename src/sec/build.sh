@@ -41,3 +41,4 @@ else
   echo "ℹ️ Binary left in current directory as './$BINARY_NAME'"
 fi
 
+
