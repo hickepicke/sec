@@ -36,3 +36,4 @@ jobs:
           sudo mv /tmp/sec /usr/local/bin/sec
           sudo chmod +x /usr/local/bin/sec
 EOF
+
