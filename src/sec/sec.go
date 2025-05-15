@@ -120,6 +120,20 @@ func saveStore(path string, store SecretStore, key []byte) error {
 	return ioutil.WriteFile(path, data, 0600)
 }
 
+// Set a new PIN for the user
+func setPIN(store SecretStore) error {
+	pin, err := promptPIN("Enter new PIN: ")
+	if err != nil {
+		return err
+	}
+	hash, err := bcrypt.GenerateFromPassword([]byte(pin), bcrypt.DefaultCost)
+	if err != nil {
+		return err
+	}
+	store[pinKey] = string(hash)
+	return nil
+}
+
 func promptPIN(prompt string) (string, error) {
 	fmt.Print(prompt)
 	bytePIN, err := term.ReadPassword(int(os.Stdin.Fd()))
@@ -252,6 +266,48 @@ func main() {
 		},
 	}
 
+	var pinCmd = &cobra.Command{
+		Use:   "pin",
+		Short: "Set a new PIN",
+		Run: func(cmd *cobra.Command, args []string) {
+			key, err := getOrCreateStaticKey()
+			if err != nil {
+				log.Fatal(err)
+			}
+			store, err := loadStore(expandPath(fileFlag), key)
+			if err != nil {
+				log.Fatal(err)
+			}
+			if err := setPIN(store); err != nil {
+				log.Fatal(err)
+			}
+			if err := saveStore(expandPath(fileFlag), store, key); err != nil {
+				log.Fatal(err)
+			}
+			fmt.Println("PIN set.")
+		},
+	}
+	var pinDeleteCmd = &cobra.Command{
+		Use:   "delete-pin",
+		Short: "Delete the PIN",
+		Run: func(cmd *cobra.Command, args []string) {
+			key, err := getOrCreateStaticKey()
+			if err != nil {
+				log.Fatal(err)
+			}
+			store, err := loadStore(expandPath(fileFlag), key)
+			if err != nil {
+				log.Fatal(err)
+			}
+			delete(store, pinKey)
+			if err := saveStore(expandPath(fileFlag), store, key); err != nil {
+				log.Fatal(err)
+			}
+			fmt.Println("PIN deleted.")
+		},
+	}
+	pinCmd.AddCommand(pinDeleteCmd)
+	rootCmd.AddCommand(pinCmd)
 	rootCmd.AddCommand(setCmd, getCmd, deleteCmd, listCmd)
 	rootCmd.AddCommand(versionCmd)
 
