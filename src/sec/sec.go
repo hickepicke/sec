@@ -154,7 +154,7 @@ func main() {
 	var fileFlag string
 	var rootCmd = &cobra.Command{
 		Use:     "sec",
-		Version: "0.0.1",
+		Version: version,
 		PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
 			key, err := getOrCreateStaticKey()
 			if err != nil {
