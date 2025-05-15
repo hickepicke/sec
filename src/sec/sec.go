@@ -19,7 +19,7 @@ import (
 
 type SecretStore map[string]string
 
-const version = "0.1.1"
+const version = "0.1.3.a"
 
 var versionCmd = &cobra.Command{
 	Use:   "version",
