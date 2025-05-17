@@ -1,0 +1,323 @@
+{
+    "devices": [
+        {
+            "addresses": [
+                "100.115.78.18",
+                "fd7a:115c:a1e0::5201:4e12"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.0-t6676b1261-g3ec4bfb9c",
+            "created": "2025-05-12T07:23:51Z",
+            "expires": "2025-11-08T07:23:51Z",
+            "hostname": "apple-tv",
+            "id": "7683819335422362",
+            "isExternal": false,
+            "keyExpiryDisabled": true,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:a451e7c4787308fbeb718e1d8770c9ebf0b72072e7d88c5f73e47f20ac32480a",
+            "name": "apple-tv-n80.fin-ide.ts.net",
+            "nodeId": "nfVkfTu11321CNTRL",
+            "nodeKey": "nodekey:8427748646e3a29902c1abadcbeafc9a3ac78920fb4acad4005cf8dc52334e11",
+            "os": "tvOS",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:1d9fd136e766636b962ee449d01e94630a25582c6e6dd3e7bb712e80c62cd290",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.94.253.94",
+                "fd7a:115c:a1e0::e401:fd5f"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-26T11:47:33Z",
+            "expires": "2025-10-23T11:47:33Z",
+            "hostname": "coke-zero",
+            "id": "7426639260669330",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-08T13:23:37Z",
+            "machineKey": "mkey:a632ebccd02a9f520d7180f0b47bce205bd0dbb08d0698a1a0dd3608f086e778",
+            "name": "coke-zero.fin-ide.ts.net",
+            "nodeId": "nofm8mDYzz11CNTRL",
+            "nodeKey": "nodekey:b2ea8a1935a45a07aca4542446bc408131c97120803c8a80abb6c6cee45efd5d",
+            "os": "linux",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:177a81c858681536f93509242c599ff68ac97ac16cd0c572e0c736b8249198fc",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.115.154.68",
+                "fd7a:115c:a1e0::c101:9a44"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-15T09:08:38Z",
+            "expires": "2025-10-12T09:08:38Z",
+            "hostname": "coke",
+            "id": "5354552974975263",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:b817a2b38b6e1dae4acdb5b3c43319c3e2e9bd4b938f8ae867d425f9e5f31440",
+            "name": "coke.fin-ide.ts.net",
+            "nodeId": "nrvQbZ26pi11CNTRL",
+            "nodeKey": "nodekey:b5b960c806f7849d8c3150f187921875481fae3dbc0ca98e95d262fec1b39a43",
+            "os": "windows",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:e03345bb7fcee53e919480c76859bd6c2d8841a2e3e87e24ced3f0a463cda5e6",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.110.245.5",
+                "fd7a:115c:a1e0::8a01:f505"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-05-03T19:33:48Z",
+            "expires": "2025-10-30T19:33:48Z",
+            "hostname": "docker01",
+            "id": "8409961050776175",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:4746e0b1af79726acdc1bd4008349b28464c19a213560d183b4bf9ef293c5302",
+            "name": "docker01.fin-ide.ts.net",
+            "nodeId": "nCjuV8Rtf821CNTRL",
+            "nodeKey": "nodekey:b072825e31d4055ff14f49dff79286654897ec9f87669b5cec8b33808a2ef504",
+            "os": "linux",
+            "tags": [
+                "tag:server"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:e63e593be62755c11e4a1199d42920f48b0b7152d100d3e5fe688d4f03670939",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.87.176.5",
+                "fd7a:115c:a1e0::8001:b007"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-24T16:12:52Z",
+            "expires": "2025-10-21T16:12:52Z",
+            "hostname": "docker02",
+            "id": "5479107580201889",
+            "isExternal": false,
+            "keyExpiryDisabled": true,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:48047fdc7776c10756a4ade02ff9c89b9d9c35a4a7e0f299d2afc7ea2f678678",
+            "name": "docker02.fin-ide.ts.net",
+            "nodeId": "nNXKYBsVnj11CNTRL",
+            "nodeKey": "nodekey:991581c9beef279cf63e674ce3d834e5e70bf9128afccbfb85da2d848017b004",
+            "os": "linux",
+            "tags": [
+                "tag:server"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:50d101bae44ea0387467fa3fa50c0784e7929741092c20df1017ce0f886e7cda",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.121.63.65",
+                "fd7a:115c:a1e0::8901:3f43"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.0-t6676b1261-g3ec4bfb9c",
+            "created": "2025-04-15T06:57:21Z",
+            "expires": "2025-10-12T06:57:21Z",
+            "hostname": "localhost",
+            "id": "3108964254467198",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:e474bde80301279aeb800a498609d947fb44320677f69f326c2049d767b97d66",
+            "name": "henrics-iphone-16pro.fin-ide.ts.net",
+            "nodeId": "nP382iD4HR11CNTRL",
+            "nodeKey": "nodekey:b742a1e4c65b2a7b47df93c719e778d0a3bccf7399e8cf997307cc8789f93f40",
+            "os": "iOS",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:880d146d532e4182ea0ea18d2faecfaaa5fe96f9bddc2684ad578bcd84528506",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.79.95.45",
+                "fd7a:115c:a1e0::5501:5f2d"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-05-07T11:24:43Z",
+            "expires": "2025-11-03T11:24:43Z",
+            "hostname": "ubuntu-s-1vcpu-512mb-10gb-fra1-01",
+            "id": "4702000088460612",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:a8f373b5653f86561fdbacba949900a01389108191b60b5c1d07d6f2f6dcca41",
+            "name": "ocean01.fin-ide.ts.net",
+            "nodeId": "nMHKa1aYid11CNTRL",
+            "nodeKey": "nodekey:3e7081b20f63a3731bc57c8d0f05f606fd14c32dcbc2fa61dcc17e54554f5f2c",
+            "os": "linux",
+            "tags": [
+                "tag:server"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:eac9d1e85c5710010bb8e23bde9d03fcf464df42bd4a45c73062123de9639488",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.83.89.80",
+                "fd7a:115c:a1e0::3e01:5954"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-05-04T10:50:48Z",
+            "expires": "2025-10-31T10:50:48Z",
+            "hostname": "instance-20250503-2147",
+            "id": "2209865548264353",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:7a7dd1f28cb4a398d22de67cf80c02db2f8fa9458042ca2d630495623e9cd53e",
+            "name": "oracle01.fin-ide.ts.net",
+            "nodeId": "nrTvAQRrFJ11CNTRL",
+            "nodeKey": "nodekey:ccf961dc36c0da3f1800038fe77acd1978e0aa88803ac9ebe7222a953e53594f",
+            "os": "linux",
+            "tags": [
+                "tag:server"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:245b63edf43420228f761f211e5e4b0eb2cadfb612e02cfe08f893ce9a4cce91",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.100.166.41",
+                "fd7a:115c:a1e0::c501:a629"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-22T21:46:52Z",
+            "expires": "2025-10-19T21:46:52Z",
+            "hostname": "pve01",
+            "id": "727629636412210",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:3e99a7dac639bf8701329092d2a64afba44dabb22d1153220d9897831b1f362f",
+            "name": "pve01.fin-ide.ts.net",
+            "nodeId": "nDWWKcbYg611CNTRL",
+            "nodeKey": "nodekey:bb7051e21ad416ad5e82554500c54e9a7ffd520d681bb8cca2b7c2c7c5e4a628",
+            "os": "linux",
+            "tags": [
+                "tag:server",
+                "tag:sec"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:53b072d233f28bc2e52b8bc6ad4ee69808f83566e063e63e75c9723a4393dc01",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.126.11.50",
+                "fd7a:115c:a1e0::e401:b32"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-22T21:43:15Z",
+            "expires": "2025-10-19T21:43:15Z",
+            "hostname": "ubuntu",
+            "id": "8135895563752069",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-16T09:00:04Z",
+            "machineKey": "mkey:5f69cbcfd54447f0d257262e5014f25aa0f81e0ea44b75868c6a29a038ba5465",
+            "name": "rpi-ubuntu.fin-ide.ts.net",
+            "nodeId": "nCePuTBmX621CNTRL",
+            "nodeKey": "nodekey:78275c12893141f5893b18ac12639174d5d100ff806601c469142ae6e4fe0b31",
+            "os": "linux",
+            "tags": [
+                "tag:server", "tag:sec"
+            ],
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:3f8bdd2c3d482dee8b409802adcef82fe7e3ba04bbc5533d6557353703234422",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.115.1.74",
+                "fd7a:115c:a1e0::ed01:14b"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.5-tdec88625e-gec2eb9730",
+            "created": "2025-04-21T20:46:43Z",
+            "expires": "2025-10-18T20:46:43Z",
+            "hostname": "steven",
+            "id": "3766073631565061",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-15T08:55:10Z",
+            "machineKey": "mkey:b798116cb8975e0d09ba1410ca52fd32b0bedcdff163597e5d8ba9a48b975754",
+            "name": "steven.fin-ide.ts.net",
+            "nodeId": "n4LUWMNfQW11CNTRL",
+            "nodeKey": "nodekey:79dee9cc3b5ecc9c323a8a83115d2b2c412525396c64768d3d18f4f6ed730149",
+            "os": "linux",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:244492f64395e45810b412c42677aa7c6fa8caec9d5de1400189ef65ad4f404b",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        },
+        {
+            "addresses": [
+                "100.116.30.98",
+                "fd7a:115c:a1e0::a401:1e62"
+            ],
+            "authorized": true,
+            "blocksIncomingConnections": false,
+            "clientVersion": "1.82.4-tb45366c80-g89593da62",
+            "created": "2025-04-15T20:17:27Z",
+            "expires": "2025-10-12T20:17:27Z",
+            "hostname": "localhost",
+            "id": "487454394138288",
+            "isExternal": false,
+            "keyExpiryDisabled": false,
+            "lastSeen": "2025-05-15T23:05:17Z",
+            "machineKey": "mkey:a970fc8d901ab9c9e4340a902f70fec4e972335ceee7733abeb2331fcbfa984d",
+            "name": "xiaomi-mibox4.fin-ide.ts.net",
+            "nodeId": "nZFrbpbmo411CNTRL",
+            "nodeKey": "nodekey:3d0cf02156d33dedbfa3fd8a0a29cea999330878dc3811ae12ed60fea4b41e61",
+            "os": "android",
+            "tailnetLockError": "",
+            "tailnetLockKey": "nlpub:a259ca7c4318afb13a7bbdd8fb32997e9dccdb5dc11d6c105d3068d34576fe91",
+            "updateAvailable": false,
+            "user": "henric.lilliehook@gmail.com"
+        }
+    ]
+}
